@@ -7,19 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: grey;
-  padding: 1rem;
-}
-
-header a {
-  background-color: white;
-  font-weight: bold;
-  text-decoration: none;
+.site-container {
+  min-height: 100vh;
 }
 
 main {
-  padding: 1rem;
+  flex: 1;
 }
 
 .products {
@@ -38,6 +31,28 @@ main {
   max-width: 400px;
 }
 
-.product-info{
+.product-info {
   padding: 1rem;
 }
+
+.btn-primary {
+  background-color: white;
+  color: grey;
+}
+
+.rating span {
+  color: gold;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
+.small-container {
+  max-width: 600px;
+}
+
