@@ -1,12 +1,13 @@
-import { useEffect, useReducer, useState } from 'react';
-import logger from 'use-reducer-logger';
-import axios from 'axios';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Product from '../components/Product';
+import { useEffect, useReducer, useState } from 'react';
+import logger from 'use-reducer-logger';
 import { Helmet } from 'react-helmet-async';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
+
+import axios from 'axios';
 //import data from '../data';
 
 const reducer = (state, action) => {
@@ -43,7 +44,7 @@ function HomeScreen() {
   return (
     <div>
       <Helmet>
-        <title>PASFIK</title>
+        <title>Pasfik</title>
       </Helmet>
       <h1>Featured Products</h1>
       <div className="products">

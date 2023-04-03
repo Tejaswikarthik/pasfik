@@ -1,13 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-import Rating from './Rating.js';
+import Rating from './Rating';
 import axios from 'axios';
 import { useContext } from 'react';
 import { Store } from '../Store';
 
 function Product(props) {
   const { product } = props;
+  
   const { state, dispatch: ctxDispatch } = useContext(Store);
   const {
     cart: { cartItems },
@@ -26,7 +27,6 @@ function Product(props) {
       payload: { ...item, quantity },
     });
   };
-
   return (
     <Card>
       <Link to={`/product/${product.slug}`}>
