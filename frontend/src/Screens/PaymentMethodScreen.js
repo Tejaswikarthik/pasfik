@@ -35,6 +35,7 @@ export default function PaymentMethodScreen() {
         <Helmet>
           <title>Payment Method</title>
         </Helmet>
+        <div className="payment">
         <h1 className="my-3">Payment Method</h1>
         <Form onSubmit={submitHandler}>
           <div className="mb-3">
@@ -61,6 +62,7 @@ export default function PaymentMethodScreen() {
             <Button type="submit">Continue</Button>
           </div>
         </Form>
+        </div>
       </div>
     </div>
   );

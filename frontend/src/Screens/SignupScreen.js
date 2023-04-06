@@ -53,6 +53,7 @@ export default function SignupScreen() {
       <Helmet>
         <title>Sign Up</title>
       </Helmet>
+      <div className="signup">
       <h1 className="my-3">Sign Up</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group className="mb-3" controlId="name">
@@ -92,6 +93,7 @@ export default function SignupScreen() {
           <Link to={`/signin?redirect=${redirect}`}>Sign-In</Link>
         </div>
       </Form>
+      </div>
     </Container>
   );
 }
