@@ -39,7 +39,6 @@
     4. upoad routes
     5. user routes
 10. Models
-    Mondo Db has no schems so i used mongoode to give a schema to the data.
     1.orderModel
     2.productModel
     3.userModel
