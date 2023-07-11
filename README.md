@@ -1,6 +1,10 @@
+Home Screen
 ![home](https://github.com/Tejaswikarthik/pasfik-E_Commerce-Website-/assets/111741944/fc5a8e88-45b0-4c96-94d3-d8914c6cab6f)
-![ship](https://github.com/Tejaswikarthik/pasfik-E_Commerce-Website-/assets/111741944/6ea78577-27f9-4cf3-b80d-d9662ca91e6a)
+Cart Screen
 ![cart](https://github.com/Tejaswikarthik/pasfik-E_Commerce-Website-/assets/111741944/b1032054-abfd-40f4-88b0-e3bf91eac858)
+Shipping Screen
+![ship](https://github.com/Tejaswikarthik/pasfik-E_Commerce-Website-/assets/111741944/6ea78577-27f9-4cf3-b80d-d9662ca91e6a)
+PaymentScreen
 ![paypal](https://github.com/Tejaswikarthik/pasfik-E_Commerce-Website-/assets/111741944/069505d1-f78b-4883-bacf-0e27a3d62c35)
 # MERN-STACK PROJECT
 
